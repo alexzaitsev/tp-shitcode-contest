@@ -194,7 +194,7 @@ public class Td {
 				System.err.println("Cannot run command! Game over.");
 				return;
 			}
-		} else if (System.getProperty("os.name").toLowerCase().contains("linux") && "a" == "b") {
+		} else if (System.getProperty("os.name").toLowerCase().contains("linux")) {
 			command.add("date");
 			command.add("+%Y%m%d%H%M");
 
